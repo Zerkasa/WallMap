@@ -1,0 +1,44 @@
+
+ #map {
+    height: 60%;
+    width: 60%;
+    margin-left: 12.5%;
+    margin-right: 15%;
+  }
+  .center {
+    margin-left: 5.5%;
+    margin-right: 20%;
+  }
+  body {
+    height: 100%;
+    background-color: E5A05B;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(166, 22, 51);
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+  table, th, td {
+    border-radius: 5px;
+    border: 2px solid rgb(97, 35, 35);
+    border-collapse: collapse;
+  }
+  td {
+    text-align: center;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+  
+  h3 {
+    text-align: center;
+    color: rgb(102, 35, 48);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+  

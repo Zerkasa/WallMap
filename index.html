@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>The Digital Wall Map</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Welcome!
+    </h1>
+    <table class = "center">
+        <tr>
+            <th style = "width: 7%">Color</th>
+            <th style = "width: 8%">Place</th>
+            <th style = "width: 2%">Visited?</th>
+            <th style = "width: 7%">Color</th>
+            <th style = "width: 8%">Place</th>
+            <th style = "width: 2%">Visited?</th>
+            <th style = "width: 7%">Color</th>
+            <th style = "width: 8%">Place</th>
+            <th style = "width: 2%">Visited?</th>
+        </tr>
+        <tr>
+            <td>White</td>
+            <td>Yosemite</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Yellow</td>
+            <td>Florence</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Blue</td>
+            <td>San Francisco</td>
+            <td><form><input type= "checkbox" checked></form></td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Florida Keys</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Brown</td>
+            <td>Lima</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Pink</td>
+            <td>Monte Carlo</td>
+            <td><form><input type= "checkbox"></form></td>
+        </tr>
+        <tr>
+            <td>Purple</td>
+            <td>Querétaro</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Green</td>
+            <td>Beihai</td>
+            <td><form><input type= "checkbox"></form></td>
+            <td>Turquoise</td>
+            <td>Zanzibar</td>
+            <td><form><input type= "checkbox"></form></td>
+        </tr>
+    </table>
+    <br>
+    <div id="map"></div>
+
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyC2iLDSm1gkEPvuKYkbHPYQbfizphwTtr0", v: "weekly"});</script>
+
+    <br>
+    <h3>
+        Thanks for visiting!
+    </h3>
+  </body>
+</html>
